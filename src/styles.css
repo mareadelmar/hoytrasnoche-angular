@@ -1,1 +1,291 @@
-/* You can add global styles to this file, and also import other style files */
+header {
+  display: flex;
+  margin-top: 0px;
+  background: #c51162;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+header nav {
+  order: 2;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  font-family: "Merriweather", serif;
+}
+
+.navbar {
+  text-decoration: none;
+  margin-right: 12px;
+  padding-right: 10px;
+  color: #f2f2f2d8;
+  opacity: 0.8;
+  display: flex;
+}
+
+.navbar:hover {
+  color: white;
+}
+
+.logos-escuchar ul li {
+  list-style: none;
+}
+
+.logos-escuchar ul li a {
+  display: flex;
+  text-decoration: none;
+}
+
+.logos-escuchar ul {
+  display: flex;
+  align-items: center;
+}
+
+.logos-escuchar {
+  order: 1;
+  flex-basis: 76%;
+}
+
+.fab {
+  flex-basis: 70%;
+  padding-right: 5vh;
+  color: #f2f2f2d8;
+  opacity: 0.8;
+}
+
+.fab:hover {
+  color: white;
+}
+
+.fa-spotify {
+  font-size: 4vh;
+}
+
+.fa-google {
+  font-size: 4.1vh;
+}
+
+.fa-apple {
+  font-size: 4.8vh;
+  margin-bottom: 0.5vh;
+}
+
+/* PORTADA */
+
+body {
+  margin: 0px;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #82b1ff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: #82b1ff;
+  flex-direction: column;
+  font-size: 150%;
+  font-family: "Merriweather", serif;
+  align-items: center;
+  order: 1;
+}
+
+h3 {
+  color: #82b1ff;
+  background-color: inherit;
+  max-width: 100vh;
+  text-align: right;
+  font-size: 150%;
+  font-family: "Merriweather", serif;
+  order: 2;
+}
+
+#img-grande {
+  max-width: 95vh;
+}
+
+.media-port {
+  display: flex;
+  order: 3;
+  background-color: #c51162;
+  border-radius: 7px;
+  flex-direction: column-reverse;
+  padding: 4px;
+  align-items: center;
+  margin-top: 7px;
+  opacity: 0.8;
+}
+
+.media-port audio {
+  height: 30px;
+  width: 300px;
+  padding: 5px;
+}
+
+.titulo-bajada {
+  background-color: #82b1ff;
+  color: #c51162;
+}
+
+.section-portada {
+  display: flex;
+  background: black;
+  min-width: 100vh;
+  margin-top: 0px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+#text-btn {
+  font-family: "Merriweather", serif;
+  display: flex;
+  order: 3;
+  color: white;
+  font-size: 94%;
+  background-color: #c51162;
+}
+
+.texto-portada {
+  display: flex;
+  background: black;
+  width: 70vh;
+  margin-bottom: 20vh;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 14vh;
+  margin-right: 14vh;
+}
+
+#titulo {
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* CARDS */
+
+.card img {
+  width: 180px;
+  height: 180px;
+  margin-top: 25px;
+  order: 1;
+  border: 1px solid #82b1ff;
+}
+
+.datos-podcast {
+  color: white;
+  order: 4;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  font-size: 11px;
+  font-family: "Merriweather", serif;
+  box-sizing: border-box;
+}
+
+.descrip-podcast {
+  color: white;
+  order: 5;
+  font-size: 13px;
+  margin-top: 0px;
+  margin-left: 7px;
+  padding: 10px;
+  font-family: "Merriweather", serif;
+}
+
+.cards {
+  display: flex;
+  min-width: 100vh;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  order: 2;
+}
+
+.card {
+  display: flex;
+  width: 310px;
+  height: 410px;
+  background-color: black;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.media {
+  display: flex;
+  order: 3;
+  border-radius: 7px;
+}
+
+.media audio {
+  display: flex;
+  width: 230px;
+  padding: 5px;
+}
+
+.section-cards {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+}
+
+.titulo-cards {
+  order: 1;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  font-family: "Merriweather", serif;
+  color: #82b1ff;
+  background-color: #c51162;
+  opacity: 0.8;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  *font-size: 120%;
+}
+
+.titulo-podcast {
+  font-family: "Merriweather", serif;
+  order: 2;
+  margin: 16px;
+  padding-top: 10px;
+  color: white;
+  opacity: 0.8;
+  width: 65%;
+}
+
+/* FOOTER */
+
+footer {
+  font-family: "Merriweather", serif;
+  font-size: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #c51162;
+  color: white;
+  align-items: center;
+  opacity: 0.8;
+}
+
+footer p a {
+  text-decoration: none;
+}
