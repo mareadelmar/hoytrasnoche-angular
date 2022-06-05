@@ -1,0 +1,104 @@
+{
+  "header": {
+    "nav": ["HOME", "NOSOTROS", "CONTACTO"],
+    "social": {
+      "spotify": "https://open.spotify.com/show/6C4MdNWQSPhmzBlIVau30e",
+      "apple": "https://podcasts.apple.com/us/podcast/hoy-trasnoche/id122621263",
+      "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy84MWU0ZWUwL3BvZGNhc3QvcnNz"
+    }
+  },
+  "hero": {
+    "lastChapter": {
+      "title": "ESCUCHÁ NUESTRO TOP 10 DEL 2020:",
+      "src": "https://cdn.transistor.fm/file/transistor/m/shows/15168/140b4a6d0347c888cba7dbe54e128c28.mp3"
+    }
+  },
+  "cards": {
+    "content": [
+      {
+        "title": "The Hoy Trasnoche Holiday Special",
+        "src": "https://cdn.transistor.fm/file/transistor/m/shows/15168/de660ed5004b25e0054d6223b2f0abf2.mp3",
+        "date": "24 dic. 2020",
+        "duration": "61",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "Para vos las fiestas son como Tinder",
+        "src": "https://www.listennotes.com/e/p/68f672af53304f8098eee765bfab9c3a/",
+        "date": "17 dic. 2020",
+        "duration": "56",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "A todos nos puede aparecer un hermano",
+        "src": "https://www.listennotes.com/e/p/404c15a8b0514576936f96b79129ea31/",
+        "date": "10 dic. 2020",
+        "duration": "44",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "El Ventura de Welles",
+        "src": "https://www.listennotes.com/e/p/e83c8defa82e47b4b62f919592b544ec/",
+        "date": "04 dic. 2020",
+        "duration": "65",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "AGNOROP YOH",
+        "src": "https://www.listennotes.com/e/p/7fb481a6b75d4fb897a514a9ac0200ff/",
+        "date": "03 dic. 2020",
+        "duration": "37",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "El episodio Mel Gibson",
+        "src": "https://www.listennotes.com/e/p/0984d9c784f8416d91169ccaa4c2e2a4/",
+        "date": "26 nov. 2020",
+        "duration": "60",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "Bacheo y repavimentación",
+        "src": "https://www.listennotes.com/e/p/8d5a5fe16fd54df18b8e38f21e16917f/",
+        "date": "19 nov. 2020",
+        "duration": "59",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "Never go full Santiago del Estero",
+        "src": "https://www.listennotes.com/e/p/c54b02a80f52400cb41b2022f37a727a/",
+        "date": "29 oct. 2020",
+        "duration": "58",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "El glory hole de Hoy Trasnoche",
+        "src": "https://www.listennotes.com/e/p/c97d660f13e944b9bf099ee1fbb9e331/",
+        "date": "22 oct. 2020",
+        "duration": "60",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "ACÁ VA EL TÍTULO",
+        "src": "https://www.listennotes.com/e/p/cab10e30663e4d4f9b1d7616a13e944d/",
+        "date": "08 oct. 2020",
+        "duration": "70",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "Uf, qué fuerte, man",
+        "src": "https://www.listennotes.com/e/p/ba032c67d9174e20a23d27aa702e1ebd/",
+        "date": "01 oct. 202",
+        "duration": "54",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      },
+      {
+        "title": "Cuando Cristian U termine la facultad",
+        "src": "https://www.listennotes.com/e/p/12f68f24f67d4038bcbbec3b0edb402e/",
+        "date": "24 sep. 2020",
+        "duration": "58",
+        "img": "../assets/images/hoytrasnoche-chica.png"
+      }
+    ]
+  }
+}
