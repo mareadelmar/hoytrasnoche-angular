@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AudiosService } from 'src/app/services/audios.service';
+import { DataService } from 'src/app/services/audios.service';
 
 @Component({
   selector: 'app-hero',
@@ -7,9 +7,11 @@ import { AudiosService } from 'src/app/services/audios.service';
   styleUrls: ['./hero.component.css'],
 })
 export class HeroComponent implements OnInit {
-  constructor(private audioData: AudiosService) {}
+  constructor(private heroData: DataService) {}
 
   ngOnInit(): void {
-    this.audioData.getAudios();
+    this.heroData.getData().subscribe((data: any) => {
+      console.log('hero:', data.hero);
+    });
   }
 }
