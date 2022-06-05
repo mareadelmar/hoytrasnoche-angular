@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  margin-top: 0px;
+  background: #c51162;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+header nav {
+  order: 2;
+}
